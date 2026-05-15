@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src/**/*.ts --exec npx ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "node-cache": "^5.1.2",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

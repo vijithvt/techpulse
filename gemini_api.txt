@@ -1,0 +1,29 @@
+Gemini API Key
+
+AIzaSyCvAN6B00yRXXZHEUrO26Q7Y_VVYWPzQHA
+
+projects/919129700883
+
+919129700883
+
+AIzaSyCvAN6B00yRXXZHEUrO26Q7Y_VVYWPzQHA
+
+
+AIzaSyCvAN6B00yRXXZHEUrO26Q7Y_VVYWPzQHA
+
+
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent" \
+  -H 'Content-Type: application/json' \
+  -H 'X-goog-api-key: AIzaSyCvAN6B00yRXXZHEUrO26Q7Y_VVYWPzQHA' \
+  -X POST \
+  -d '{
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Explain how AI works in a few words"
+          }
+        ]
+      }
+    ]
+  }'
